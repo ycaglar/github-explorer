@@ -26,6 +26,9 @@ struct SearchView: View {
             }
             .edgesIgnoringSafeArea(.all)
         }
+        .onAppear() {
+            //UINavigationBar.appearance().backgroundColor = .red
+        }
     }
 }
 
