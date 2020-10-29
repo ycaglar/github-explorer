@@ -22,6 +22,7 @@
 		BDF71DF4254A6E83000ADD6A /* UINavigationController + Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DF1254A6E83000ADD6A /* UINavigationController + Appearance.swift */; };
 		BDF71DF5254A6E83000ADD6A /* Color + octocat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DF2254A6E83000ADD6A /* Color + octocat.swift */; };
 		BDF71DF6254A6E83000ADD6A /* UIColor + octocat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DF3254A6E83000ADD6A /* UIColor + octocat.swift */; };
+		BDF71DF9254A7077000ADD6A /* PictureFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DF8254A7077000ADD6A /* PictureFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BDF71DF1254A6E83000ADD6A /* UINavigationController + Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController + Appearance.swift"; sourceTree = "<group>"; };
 		BDF71DF2254A6E83000ADD6A /* Color + octocat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color + octocat.swift"; sourceTree = "<group>"; };
 		BDF71DF3254A6E83000ADD6A /* UIColor + octocat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + octocat.swift"; sourceTree = "<group>"; };
+		BDF71DF8254A7077000ADD6A /* PictureFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				BDF71DE2254A51C0000ADD6A /* RepoStore.swift */,
 				BDF71DE5254A6B06000ADD6A /* ImageStore.swift */,
 				BDF71DE8254A6C32000ADD6A /* ResultView.swift */,
+				BDF71DF8254A7077000ADD6A /* PictureFrame.swift */,
 				BDF71DEB254A6CE7000ADD6A /* GiftRenderer.swift */,
 				BDF71DEE254A6DA1000ADD6A /* OctoView.swift */,
 				BDF71DF2254A6E83000ADD6A /* Color + octocat.swift */,
@@ -185,6 +188,7 @@
 				BDF71DEF254A6DA1000ADD6A /* OctoView.swift in Sources */,
 				BDF71DE3254A51C0000ADD6A /* RepoStore.swift in Sources */,
 				BDF71DC8254A4BF7000ADD6A /* GitHub_ExplorerApp.swift in Sources */,
+				BDF71DF9254A7077000ADD6A /* PictureFrame.swift in Sources */,
 				BDF71DE6254A6B06000ADD6A /* ImageStore.swift in Sources */,
 				BDF71DF5254A6E83000ADD6A /* Color + octocat.swift in Sources */,
 				BDF71DE0254A50ED000ADD6A /* RepoModel.swift in Sources */,
