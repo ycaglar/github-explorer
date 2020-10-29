@@ -27,7 +27,7 @@ struct Owner: Hashable, Codable {
 }
 
 extension RepoModel {
-    static func == (lhs: Repo, rhs: Repo) -> Bool {
+    static func == (lhs: RepoModel, rhs: RepoModel) -> Bool {
         lhs.id == rhs.id
     }
 }

@@ -14,7 +14,7 @@ class RepoStore: ObservableObject {
     func getRepos(for username: String) {
         guard let url = URL(string: "https://api.github.com/users/\(username)/repos") else { return }
         URLSession.shared.dataTask(with: url) { (data, response, error) in
-            let repos = try? JSONDecoder().decode([Repo].self, from: data!)
+            let repos = try? JSONDecoder().decode([RepoModel].self, from: data!)
             DispatchQueue.main.async {
                 self.repos = repos
             }
