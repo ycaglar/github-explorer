@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		BDF71DC8254A4BF7000ADD6A /* GitHub_ExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DC7254A4BF7000ADD6A /* GitHub_ExplorerApp.swift */; };
-		BDF71DCA254A4BF7000ADD6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DC9254A4BF7000ADD6A /* ContentView.swift */; };
+		BDF71DCA254A4BF7000ADD6A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DC9254A4BF7000ADD6A /* SearchView.swift */; };
 		BDF71DCC254A4BF8000ADD6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF71DCB254A4BF8000ADD6A /* Assets.xcassets */; };
 		BDF71DCF254A4BF8000ADD6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF71DCE254A4BF8000ADD6A /* Preview Assets.xcassets */; };
 		BDF71DD8254A4C56000ADD6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BDF71DD7254A4C56000ADD6A /* README.md */; };
+		BDF71DDC254A4F06000ADD6A /* Octocat.gif in Resources */ = {isa = PBXBuildFile; fileRef = BDF71DDB254A4F06000ADD6A /* Octocat.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDF71DC4254A4BF7000ADD6A /* GitHub Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF71DC7254A4BF7000ADD6A /* GitHub_ExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_ExplorerApp.swift; sourceTree = "<group>"; };
-		BDF71DC9254A4BF7000ADD6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDF71DC9254A4BF7000ADD6A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		BDF71DCB254A4BF8000ADD6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF71DCE254A4BF8000ADD6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDF71DD0254A4BF8000ADD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF71DD7254A4C56000ADD6A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BDF71DDB254A4F06000ADD6A /* Octocat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Octocat.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 		BDF71DC6254A4BF7000ADD6A /* GitHub Explorer */ = {
 			isa = PBXGroup;
 			children = (
+				BDF71DDA254A4EE0000ADD6A /* Assets */,
 				BDF71DC7254A4BF7000ADD6A /* GitHub_ExplorerApp.swift */,
-				BDF71DC9254A4BF7000ADD6A /* ContentView.swift */,
+				BDF71DC9254A4BF7000ADD6A /* SearchView.swift */,
 				BDF71DCB254A4BF8000ADD6A /* Assets.xcassets */,
 				BDF71DD0254A4BF8000ADD6A /* Info.plist */,
 				BDF71DCD254A4BF8000ADD6A /* Preview Content */,
@@ -70,6 +73,14 @@
 				BDF71DCE254A4BF8000ADD6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDF71DDA254A4EE0000ADD6A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BDF71DDB254A4F06000ADD6A /* Octocat.gif */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF71DDC254A4F06000ADD6A /* Octocat.gif in Resources */,
 				BDF71DD8254A4C56000ADD6A /* README.md in Resources */,
 				BDF71DCF254A4BF8000ADD6A /* Preview Assets.xcassets in Resources */,
 				BDF71DCC254A4BF8000ADD6A /* Assets.xcassets in Resources */,
@@ -142,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF71DCA254A4BF7000ADD6A /* ContentView.swift in Sources */,
+				BDF71DCA254A4BF7000ADD6A /* SearchView.swift in Sources */,
 				BDF71DC8254A4BF7000ADD6A /* GitHub_ExplorerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
