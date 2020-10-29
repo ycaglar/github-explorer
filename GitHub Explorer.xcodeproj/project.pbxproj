@@ -19,6 +19,9 @@
 		BDF71DE9254A6C32000ADD6A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DE8254A6C32000ADD6A /* ResultView.swift */; };
 		BDF71DEC254A6CE7000ADD6A /* GiftRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DEB254A6CE7000ADD6A /* GiftRenderer.swift */; };
 		BDF71DEF254A6DA1000ADD6A /* OctoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DEE254A6DA1000ADD6A /* OctoView.swift */; };
+		BDF71DF4254A6E83000ADD6A /* UINavigationController + Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DF1254A6E83000ADD6A /* UINavigationController + Appearance.swift */; };
+		BDF71DF5254A6E83000ADD6A /* Color + octocat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DF2254A6E83000ADD6A /* Color + octocat.swift */; };
+		BDF71DF6254A6E83000ADD6A /* UIColor + octocat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DF3254A6E83000ADD6A /* UIColor + octocat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		BDF71DE8254A6C32000ADD6A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		BDF71DEB254A6CE7000ADD6A /* GiftRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftRenderer.swift; sourceTree = "<group>"; };
 		BDF71DEE254A6DA1000ADD6A /* OctoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoView.swift; sourceTree = "<group>"; };
+		BDF71DF1254A6E83000ADD6A /* UINavigationController + Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController + Appearance.swift"; sourceTree = "<group>"; };
+		BDF71DF2254A6E83000ADD6A /* Color + octocat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color + octocat.swift"; sourceTree = "<group>"; };
+		BDF71DF3254A6E83000ADD6A /* UIColor + octocat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + octocat.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 				BDF71DE8254A6C32000ADD6A /* ResultView.swift */,
 				BDF71DEB254A6CE7000ADD6A /* GiftRenderer.swift */,
 				BDF71DEE254A6DA1000ADD6A /* OctoView.swift */,
+				BDF71DF2254A6E83000ADD6A /* Color + octocat.swift */,
+				BDF71DF3254A6E83000ADD6A /* UIColor + octocat.swift */,
+				BDF71DF1254A6E83000ADD6A /* UINavigationController + Appearance.swift */,
 				BDF71DCB254A4BF8000ADD6A /* Assets.xcassets */,
 				BDF71DD0254A4BF8000ADD6A /* Info.plist */,
 				BDF71DCD254A4BF8000ADD6A /* Preview Content */,
@@ -177,8 +186,11 @@
 				BDF71DE3254A51C0000ADD6A /* RepoStore.swift in Sources */,
 				BDF71DC8254A4BF7000ADD6A /* GitHub_ExplorerApp.swift in Sources */,
 				BDF71DE6254A6B06000ADD6A /* ImageStore.swift in Sources */,
+				BDF71DF5254A6E83000ADD6A /* Color + octocat.swift in Sources */,
 				BDF71DE0254A50ED000ADD6A /* RepoModel.swift in Sources */,
+				BDF71DF6254A6E83000ADD6A /* UIColor + octocat.swift in Sources */,
 				BDF71DEC254A6CE7000ADD6A /* GiftRenderer.swift in Sources */,
+				BDF71DF4254A6E83000ADD6A /* UINavigationController + Appearance.swift in Sources */,
 				BDF71DE9254A6C32000ADD6A /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
