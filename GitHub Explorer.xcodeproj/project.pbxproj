@@ -16,6 +16,7 @@
 		BDF71DE0254A50ED000ADD6A /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DDF254A50ED000ADD6A /* RepoModel.swift */; };
 		BDF71DE3254A51C0000ADD6A /* RepoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DE2254A51C0000ADD6A /* RepoStore.swift */; };
 		BDF71DE6254A6B06000ADD6A /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DE5254A6B06000ADD6A /* ImageStore.swift */; };
+		BDF71DE9254A6C32000ADD6A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71DE8254A6C32000ADD6A /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BDF71DDF254A50ED000ADD6A /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
 		BDF71DE2254A51C0000ADD6A /* RepoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoStore.swift; sourceTree = "<group>"; };
 		BDF71DE5254A6B06000ADD6A /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		BDF71DE8254A6C32000ADD6A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BDF71DDF254A50ED000ADD6A /* RepoModel.swift */,
 				BDF71DE2254A51C0000ADD6A /* RepoStore.swift */,
 				BDF71DE5254A6B06000ADD6A /* ImageStore.swift */,
+				BDF71DE8254A6C32000ADD6A /* ResultView.swift */,
 				BDF71DCB254A4BF8000ADD6A /* Assets.xcassets */,
 				BDF71DD0254A4BF8000ADD6A /* Info.plist */,
 				BDF71DCD254A4BF8000ADD6A /* Preview Content */,
@@ -168,6 +171,7 @@
 				BDF71DC8254A4BF7000ADD6A /* GitHub_ExplorerApp.swift in Sources */,
 				BDF71DE6254A6B06000ADD6A /* ImageStore.swift in Sources */,
 				BDF71DE0254A50ED000ADD6A /* RepoModel.swift in Sources */,
+				BDF71DE9254A6C32000ADD6A /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
