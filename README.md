@@ -6,7 +6,7 @@
 ## Overview
 GitHub Explorer provides a quick overview of a users account. Its simple interface allows you to easily navigate between user profiles and view the content of their repositories.
 
-<img src="GitHub%20Explorer/Preview%20Content/Preview%20Assets.xcassets/Preview.imageset/Preview.gif"/>
+<img src="GitHub Explorer/Preview Content/Preview Assets.xcassets/Preview.gif">
 
 ## How to Contribute
 Contributions are always welcome. Please take the following steps for your commit.
