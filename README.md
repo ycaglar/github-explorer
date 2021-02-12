@@ -1,4 +1,4 @@
-<img src="https://github.com/ycaglar/.github/blob/master/badge150.png" align="right"/>
+<img src="https://github.com/ycaglar/.github/blob/master/badge.png" align="right" width="10%"/>
 
 #  GitHub Explorer
 [![forthebadge](https://forthebadge.com/images/badges/made-with-swift.svg)](https://forthebadge.com)
